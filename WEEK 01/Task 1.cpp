@@ -19,10 +19,10 @@ struct Student{
 int main(){
 	
 	//First Student
-	s1.Frist_name = "Ali";
-	s1.Last_name = "Zain";
-	s1.Age = 20;
-	s1.Marks = 36.5;
+	s1.Frist_name = "Hasham";
+	s1.Last_name = "Qazi";
+	s1.Age = 21;
+	s1.Marks = 40.5;
 	s1.displayStudentInfo(s1);
 	
 	cout<<endl;
@@ -32,8 +32,8 @@ int main(){
 	//Second Student
 	s2.Frist_name = "Ali";
 	s2.Last_name = "Raza";
-	s2.Age = 21;
-	s2.Marks = 39;
+	s2.Age = 23;
+	s2.Marks = 67;
 	s2.displayStudentInfo(s2);
 	
 	return 0;
