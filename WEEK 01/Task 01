@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+struct Learner
+{
+    string givenName;
+    string surname;
+    int ageValue;
+    float totalMarks;
+
+    void showRecord()
+    {
+        cout << "Full Name: " << givenName << " " << surname << endl;
+        cout << "Age: " << ageValue << endl;
+        cout << "Marks: " << totalMarks << endl;
+    }
+};
+
+int main()
+{
+    Learner recordOne, recordTwo;
+
+    // First Record
+    recordOne.givenName = "Raja";
+    recordOne.surname = "Hasham";
+    recordOne.ageValue = 20;
+    recordOne.totalMarks = 36.5;
+
+    recordOne.showRecord();
+
+    cout << "\n----------------------------------\n\n";
+
+    // Second Record
+    recordTwo.givenName = "Muhammad";
+    recordTwo.surname = "Usman";
+    recordTwo.ageValue = 21;
+    recordTwo.totalMarks = 39;
+
+    recordTwo.showRecord();
+
+    return 0;
+}
