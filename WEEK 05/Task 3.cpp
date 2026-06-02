@@ -54,7 +54,7 @@ class Designer : public Employee{
 };
 
 int main(){
-	Developer d("Zain", 5000000,"C++");
+	Developer d("Hasham", 5000000,"C++");
 	cout<<"~~~Developer's Information~~~"<<endl;
 	d.display_developer();
 	
